@@ -17,4 +17,26 @@ var PESSOA = "random"
 console.log(pessoa);
 console.log(PESSOA);
 // o js é case sensitive
+
+//variaveis
+/*variaveis sao "recipientes" onde podemos armazenar informaçoes que podem variar, ou seja, podem ter qualquer tipo de valor.
+
+temos tres palavras-chaves para declarar variaveis:
+- var
+- let
+- const
+*/
+// var pote = "Bombom";
+// alert(pote);
+
+//declaração de variável
+var a,b,c;
+
+//atribuição de valores
+a =2;
+b =3;
+c = a+b;
+
+alert (c);
+
 676
