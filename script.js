@@ -30,13 +30,13 @@ temos tres palavras-chaves para declarar variaveis:
 // alert(pote);
 
 //declaração de variável
-var a,b,c;
+var nome, sobrenome, nomeCompleto;
 
 //atribuição de valores
-a =2;
-b =3;
-c = a+b;
+nome="Adenilton";
+sobrenome="Lopes";
+nomeCompleto=nome+" "+sobrenome;
 
-alert (c);
+document.getElementById("texto").innerHTML = nomeCompleto;
 
 676
